@@ -1,9 +1,6 @@
 import Movie from "./Movie";
 
 function MovieList({json}) {
-
-  console.log(json.length);
-
   let movies = [];
 
   for (let i = 0; i < json.length; i++) {

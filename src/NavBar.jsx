@@ -1,3 +1,5 @@
+import { Button } from 'react-bootstrap'
+
 function NavBar() {
   return(
     <>
@@ -9,7 +11,7 @@ function NavBar() {
           } else {
             evt.currentTarget.textContent = "Login";
           }
-        }}>Login</button>
+        }} class="btn btn-light">Login</button>
       </nav>
     </>
   )
