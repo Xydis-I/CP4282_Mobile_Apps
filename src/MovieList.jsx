@@ -9,7 +9,6 @@ function MovieList({json}) {
         <Movie name={json[i].name} year={json[i].year} rating={json[i].rating} poster={json[i].poster}></Movie>
       </div>
     )
-    
   }
 
   return(
