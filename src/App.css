@@ -1,8 +1,46 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 95%;
+  margin: auto;
   padding: 2rem;
   text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  padding-left: 1rem;
+}
+
+.movieList {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.movie {
+  align-self: flex-start;
+  margin: 1rem;
+  width: 300px;
+}
+
+.movie img {
+  width: 300px;
+  height: 450px;
+}
+
+.movie div {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: white;
+  width: 262px;
+  padding: 1em;
 }
 
 .logo {
